@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Bangers&family=Libre+Caslon+Display&display=swap");
+.avatarStyle img {
+  width: 200px;
+  height: 200px;
+  padding: 0 20px;
+}
+.mainpage .welcomeText,
+.mainpage .btn {
+  font-family: "Bangers", cursive;
+  letter-spacing: 0.4rem;
+}
+.mainpage .btn {
+  margin-bottom: 1rem;
+  width: 130px;
+  padding: 10px;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+}
+.mainpage .btn:active {
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+}
+.mainpage .btn:focus {
+  outline: none;
+}
+.mainpage .btn:hover {
+  background: #000;
+  color: #fff;
+  transition: background 1s ease, color 1s ease;
+}
